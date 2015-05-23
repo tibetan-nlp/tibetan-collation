@@ -2,12 +2,22 @@
 
 from icu import RuleBasedCollator
 
-rules = ''
-with open ("rules.txt", "r") as myfile:
-    rules=myfile.read()
+RULES = ''
+with open ("rules.txt", "r") as rulesfile:
+    RULES=rulesfile.read()
 
-print(rules)
+COLLATOR = RuleBasedCollator('[normalization on]\n'+RULES)
 
-collator = RuleBasedCollator('[normalization on]\n'+rules)
+EXIT_CODE = 0
 
-print(sorted(['བ', 'བད', 'ད'], key=collator.getSortKey))
+# Very simple test function: we 
+def testOrder(argList):
+    print("Sorting ['"+("', '".join(argList))+"']...")
+    newList = sorted(argList, key=COLLATOR.getSortKey)
+    if argList == newList:
+        EXIT_CODE = 1
+        print("FAIL! got  ['"+("', '".join(argList))+"']")
+    else:
+        print('OK')
+
+testOrder(('ད', 'བདག', 'བ'))
