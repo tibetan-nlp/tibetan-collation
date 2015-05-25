@@ -51,7 +51,7 @@ testOrder("ཤ ཤྭ གཤྭ བཤྭ", "letter ཤ")
 testOrder("ས སྭ སྲ སླ གསྭ བསྭ བསྲ བསླ", "letter ས")
 testOrder("ཧ ཧྭ ཧྲ ལྷ", "letter ཧ")
 testOrder("ཀི ཀུ ཀེ ཀོ", "standard vowels")
-testOrder("ཀག ཀང ཀད ཀན ཀབ ཀམ ཀར ཀལ ཀས", "standard suffixes")
+testOrder("ཀག ཀང ཀད ཀན ཀབ ཀམ ཀའ ཀའུ ཀར ཀལ ཀས", "standard suffixes")
 testOrder("ཀག ཀགས ཀང ཀངས ཀད ཀན ཀབ ཀབས ཀམ ཀམས ཀའ ཀའུ ཀར ཀལ ཀས", "standard and second suffixes")
 testOrder("ཀག ཀགས ཀང ཀངས ཀད ཀན ཀབ ཀབས ཀམ ཀམས ཀའ ཀའང ཀའམ ཀའི ཀའིའོ ཀའུ ཀའུའང ཀའུའམ ཀའུའི ཀའུའིའོ ཀའུའོ ཀའོ ཀར ཀལ ཀས", "standard, second and grammatical suffixes")
 # Test page 55 of Manuel de Tibétain Standard by Nicolas Tournadre
