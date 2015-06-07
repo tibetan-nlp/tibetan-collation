@@ -42,7 +42,8 @@
 	<<<ྵ<ྶ<ྷ<ྸ
 # Combining marks and signs (secondary weight)
 &༹<<྄<<ཿ<<྅<<ྈ<<ྉ<<ྊ<<ྋ
-# Treat ཷ,ཹ as decomposed
+# Treatༀ,  ཷand ,ཹ as decomposed
+&ཨོཾ=ༀ
 &ྲཱྀ=ཷ
 &ླཱྀ=ཹ
 # Shorthands for ག,ས
@@ -63,7 +64,5 @@
 &དམགས<<<དམཊ<<<དམཌ
 &གསགས<<<གསཊ<<<གསཌ
 &བསགས<<<བསཊ<<<བསཌ
-# OM sign
-&྿<ༀ
 # Marks (seconadry different, with low equal primary weight after ໆ)
 &ໆ<་<<<༌<<།<<༎<<༏<<༐<<༑<<༔<<༴
