@@ -61,6 +61,7 @@ testOrder("ཀིག ཀིགས ཀིང ཀིྃ ཀིངས ཀིད ཀ
 testOrder("ཀཀ ཀཁ ཀག ཀགས ཀང ཀངས ཀཉ ཀཏ ཀཊ ཀཐ ཀཋ ཀད ཀཌ ཀན ཀཎ ཀནད ཀཔ ཀཕ ཀབ ཀབས ཀམ ཀཾ ཀམས ཀཙ ཀཚ ཀཛ ཀཝ ཀའ ཀའང ཀའམ་ཀའན ཀའས ཀའི ཀའིམ ཀའུ ཀའུའི ཀའུར ཀའུས ཀའེ ཀའོ ཀཡ ཀར ཀརད ཀལ ཀལད ཀཤ ཀཥ ཀས ཀཧ", "suffixes (Di Jiang) (fixed)")
 testOrder("ཀྙ ཀྥ ཀྭ ཀྱ ཀྱྭ ཀྱྲ ཀྲ ཀྲྭ ཀྲྱ ཀླ ཀྵ ཀྷ ཀྷྭ ཀྷྲ", "subscripts (Di Jiang)")
 testOrder("ཨོམ ཨོཾ ༀ ཨོཙ", "decomposed oM")
+testOrder("ག དགག དགང དག༵ང དག༷ང དགད དགས དགི དགི༵ དགི༷ དགི༵ དགི༷ དགུ བགྱ བགྲ བགྲ༵ བགྲ༷ བགྲུ བགྲུ༵ བགྲུ༷ བགླ", "ignored marks (mark-vowel and vowel-mark)")
 # Test page 55 of Manuel de Tibétain Standard by Nicolas Tournadre
 testOrder("ག་རེ་ གངས་ གི་ གིས་ གུར་ གེ་སར་ གོ་ གྭ་ གྱང་ གྱུར་ གྲང་མོ་ གྲངས་ གླ་ གླང་ དགའ་ དགུ་ དགེ་བ་ དགོས་ དགྲ་ བགམས་ བགེགས་ མགུར་ མགྱོགས་ རྒན་ རྒོད་པོ་ རྒྱ་ རྒྱ་མ་ ལྒང་བུ་ སྒ་ སྒུག་ སྒོར་མོ་ སྒྱུར་ སྒྲ་ བརྒལ་ བརྒྱ་ བསྒོམས་ བསྒྱུར་ བསྒྲགས་ བསིགྲགས་", "NT")
 # Tests from https://github.com/suizokukan/dchars/tree/master/tests/languages/bod
