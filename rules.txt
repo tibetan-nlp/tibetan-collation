@@ -1,3 +1,20 @@
+# Rules for Sanskrit ordering
+# From Bod rgya tshig mdzod chen mo pages 9, 11, 347, 1153, 1619, 1711, 1827, 2055, 2061, 2840, 2920, 3136 and 3137
+# Example: ཀར་ལུགས།  < ཀརྐ་ཊ།
+&ཀར=ཀར
+&ཀལ=ཀལ
+&ཀས=ཀས
+&གཉྫ=གཉྫ
+&ཐར=ཐར
+&པུས=པུས
+&ཕལ=ཕལ
+&བིལ=བིལ
+&མཉྫ=མཉྫ
+&མར=མར
+&ཤས=ཤས
+&སར=སར
+&ཨར=ཨར
+&ཨས=ཨས
 # Marks (seconadry different, with low equal primary weight after Lao)
 &ໆ<།<<༎<<༏<<༐<<༑<<༔<<༴<་=༌
 &ཀ<<ྈྐ<དཀ<བཀ<རྐ<ལྐ<སྐ<བརྐ<བསྐ
