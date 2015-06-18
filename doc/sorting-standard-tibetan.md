@@ -99,7 +99,6 @@ The subscript letters sort in the following order (presented on ཀ):
 - ཀྲ
 - ཀྲྭ
 - ཀླ
-- ཀླྭ
 
 ### Order of vowels
 
