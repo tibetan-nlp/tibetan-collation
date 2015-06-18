@@ -11,6 +11,8 @@ The algorithm sorts according to 6 weights in the following order:
 - vowel
 - suffix
 
+See below for the sorting order inside each weight.
+
 ## Examples
 
 Let's take a few examples:
