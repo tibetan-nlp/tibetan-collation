@@ -1,6 +1,14 @@
-# Standard tibetan sorting
+# Sorting ambiguous syllables
 
-Tibetan has 9 ambiguous syllables where it is not possible to know what the main stack is. This is documented [here](https://github.com/eroux/tibetan-spellchecker/blob/master/doc/finding-main-stack.md). A collation algorithm should treat these syllables as their most common form, documented in the above link. Still, there might be (extremely rare) cases where a user might want to treat one of these syllables. 
+Tibetan has 9 ambiguous syllables where it is not possible to know what the main stack is. This is documented [here](https://github.com/eroux/tibetan-spellchecker/blob/master/doc/finding-main-stack.md). A collation algorithm should treat these syllables as their most common form, documented in the above link. 
+
+A collation algorithm should give the following order:
+
+    ག་ དགས་ འགས་ ང་  ད་ དངས་ གདས་ བདས་ འདས་ ན་ བ་ བགས་ དབས་ འབས་ མ་ མགས་ མངས་ དམས་ ཙ་
+
+## Unusual disambiguation
+
+There might be (extremely rare) cases where a user might want to treat one of these syllables not as the way it is usually disambiguated. There are two methods to do so:
 
 ### Specify first consonnant as main
 
