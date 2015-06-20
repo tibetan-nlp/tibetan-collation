@@ -22,10 +22,10 @@ A collation algorithm should respect the following order:
 
 ### Specify second consonnant as main
 
-The same mechanism cannot be used to specify the second consonnant as the main one, there seems to be no clear canonical mechanism to do so. What we propose here is to use Unicode character U+200B ZERO WIDTH SPACE (hereafter referenced as *ZWSP*) after the second stack. Unlike the other solution, this is not canonical, and all collation algorithm might not supported (the rules provided in this repository should).
+The same mechanism cannot be used to specify the second consonnant as the main one, there seems to be no clear canonical mechanism to do so. What we propose here is to use Unicode character U+2060 WORD JOINER (hereafter referenced as *WJ*) after the second stack. Unlike the other solution, this is not canonical, and all collation algorithm might not supported (the rules provided in this repository should).
 
 A collation algorithm implementing this method should respect the following order:
 
- ​   ང་ མངར་ མང​ས་ མངི་ མ་ མང་ མངས་ མད་
+ ​   ང་ མངར་ མང⁠ས་ མངི་ མ་ མང་ མངས་ མད་
 
-(the first མངས་ contains a ZWSP: མངZWSPས་)
+(the first མངས་ contains a WJ: མངWJས་)
