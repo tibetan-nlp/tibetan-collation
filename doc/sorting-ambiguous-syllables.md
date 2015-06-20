@@ -1,6 +1,6 @@
 # Standard tibetan sorting
 
-Tibetan has 8 ambiguous syllables where it is not possible to know what the main stack is. This is documented [here](https://github.com/eroux/tibetan-spellchecker/blob/master/doc/standard-syllable-structure.md). A collation algorithm should treat these syllables as their most common form, documented in the above link. Still, there might be (extremely rare) cases where a user might want to treat one of these syllables. 
+Tibetan has 9 ambiguous syllables where it is not possible to know what the main stack is. This is documented [here](https://github.com/eroux/tibetan-spellchecker/blob/master/doc/finding-main-stack.md). A collation algorithm should treat these syllables as their most common form, documented in the above link. Still, there might be (extremely rare) cases where a user might want to treat one of these syllables. 
 
 ### Specify first consonnant as main
 
