@@ -26,6 +26,6 @@ The same mechanism cannot be used to specify the second consonnant as the main o
 
 A collation algorithm implementing this method should respect the following order:
 
- ​   ང་ མངར་ མང⁠ས་ མངི་ མ་ མང་ མངས་ མད་
+    ང་ མངར་ མང⁠ས་ མངི་ མ་ མང་ མངས་ མད་
 
 (the first མངས་ contains a WJ: མངWJས་)
